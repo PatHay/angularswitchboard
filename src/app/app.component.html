@@ -1,0 +1,8 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Switchboard
+  </h1>
+  <button id="board" *ngFor="let switch of switchArray; let idx = index" [ngClass]= "switch" (click)="change(idx)">
+  </button>
+</div>
